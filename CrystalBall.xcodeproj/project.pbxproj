@@ -18,6 +18,16 @@
 		2454910A16ACB97A00076757 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454910916ACB97A00076757 /* Default-568h@2x.png */; };
 		2454910D16ACB97A00076757 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454910B16ACB97A00076757 /* MainStoryboard.storyboard */; };
 		2454911016ACB97A00076757 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454910F16ACB97A00076757 /* ViewController.m */; };
+		2454912716AF9E9900076757 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2454912616AF9E9900076757 /* bg.jpg */; };
+		2454912E16AFB1C700076757 /* predict-button-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454912C16AFB1C700076757 /* predict-button-hover.png */; };
+		2454913116AFB25C00076757 /* predict-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913016AFB25C00076757 /* predict-button.png */; };
+		2454913516AFB45100076757 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913216AFB45100076757 /* bg@2x.png */; };
+		2454913616AFB45100076757 /* predict-button-hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913316AFB45100076757 /* predict-button-hover@2x.png */; };
+		2454913716AFB45100076757 /* predict-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913416AFB45100076757 /* predict-button@2x.png */; };
+		2454913A16B0E1E300076757 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913816B0E1E300076757 /* icon.png */; };
+		2454913B16B0E1E300076757 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913916B0E1E300076757 /* icon@2x.png */; };
+		2454913D16B0E1F400076757 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913C16B0E1F400076757 /* icon.png */; };
+		2454913F16B0E1F900076757 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454913E16B0E1F900076757 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,16 @@
 		2454910C16ACB97A00076757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2454910E16ACB97A00076757 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2454910F16ACB97A00076757 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2454912616AF9E9900076757 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		2454912C16AFB1C700076757 /* predict-button-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "predict-button-hover.png"; sourceTree = "<group>"; };
+		2454913016AFB25C00076757 /* predict-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "predict-button.png"; sourceTree = "<group>"; };
+		2454913216AFB45100076757 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		2454913316AFB45100076757 /* predict-button-hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "predict-button-hover@2x.png"; sourceTree = "<group>"; };
+		2454913416AFB45100076757 /* predict-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "predict-button@2x.png"; sourceTree = "<group>"; };
+		2454913816B0E1E300076757 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2454913916B0E1E300076757 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		2454913C16B0E1F400076757 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2454913E16B0E1F900076757 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 		245490E416ACB97A00076757 = {
 			isa = PBXGroup;
 			children = (
+				2454913E16B0E1F900076757 /* icon@2x.png */,
+				2454913C16B0E1F400076757 /* icon.png */,
 				245490F916ACB97A00076757 /* CrystalBall */,
 				245490F216ACB97A00076757 /* Frameworks */,
 				245490F016ACB97A00076757 /* Products */,
@@ -83,6 +105,7 @@
 		245490F916ACB97A00076757 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				2454912516AF9E7F00076757 /* Images */,
 				2454910216ACB97A00076757 /* AppDelegate.h */,
 				2454910316ACB97A00076757 /* AppDelegate.m */,
 				2454910B16ACB97A00076757 /* MainStoryboard.storyboard */,
@@ -105,6 +128,21 @@
 				2454910916ACB97A00076757 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2454912516AF9E7F00076757 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2454913816B0E1E300076757 /* icon.png */,
+				2454913916B0E1E300076757 /* icon@2x.png */,
+				2454913216AFB45100076757 /* bg@2x.png */,
+				2454913316AFB45100076757 /* predict-button-hover@2x.png */,
+				2454913416AFB45100076757 /* predict-button@2x.png */,
+				2454913016AFB25C00076757 /* predict-button.png */,
+				2454912C16AFB1C700076757 /* predict-button-hover.png */,
+				2454912616AF9E9900076757 /* bg.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +201,16 @@
 				2454910816ACB97A00076757 /* Default@2x.png in Resources */,
 				2454910A16ACB97A00076757 /* Default-568h@2x.png in Resources */,
 				2454910D16ACB97A00076757 /* MainStoryboard.storyboard in Resources */,
+				2454912716AF9E9900076757 /* bg.jpg in Resources */,
+				2454912E16AFB1C700076757 /* predict-button-hover.png in Resources */,
+				2454913116AFB25C00076757 /* predict-button.png in Resources */,
+				2454913516AFB45100076757 /* bg@2x.png in Resources */,
+				2454913616AFB45100076757 /* predict-button-hover@2x.png in Resources */,
+				2454913716AFB45100076757 /* predict-button@2x.png in Resources */,
+				2454913A16B0E1E300076757 /* icon.png in Resources */,
+				2454913B16B0E1E300076757 /* icon@2x.png in Resources */,
+				2454913D16B0E1F400076757 /* icon.png in Resources */,
+				2454913F16B0E1F900076757 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +340,7 @@
 				2454911516ACB97A00076757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
